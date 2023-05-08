@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My webpage!</title>
+        <style>
+            .title {
+                color: red;
+                text-align: center;
+            }
+            .sub-title{
+                font-size: 20px;
+            }
+            div {
+                padding: 20px;
+                
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1 class="title">IT Form</h1>
+        <form>
+            <div>
+                <h1 class="sub-title">What is the workers name?</h1> 
+                <input name="name" type="text" placeholder="Name">
+                <h1 class="sub-title">What Department are they in?</h1>
+                <input name="department" list="departments" placeholder="Department">
+                <datalist id="departments">
+                    <option value="Billing"></option>
+                    <option value="VOB"></option>
+                    <option value="Medical Records"></option>
+                    <option value="UR"></option>
+                </datalist>
+            </div>
+            
+            <div>
+                <h1 class="sub-title">What item do they need?</h1>
+                <input name="item" type="text" placeholder="Item">
+                <h1 class="sub-title">How many do they need?</h1>
+                <input number="number" type="number" placeholder="Number">
+            </div>
+            
+
+        </form>
+    </body>
+</html>
